@@ -89,6 +89,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    margin: 60px;
 }
 .mindset-title {
     color: #FFFFFF;
@@ -103,5 +104,25 @@ main {
     border: 0;
     border-radius: 5px;
     margin: 25px;
-
+}
+/* footer */
+.footer{
+    display: flex;
+    
+}
+.footer-set{
+    margin: 0 200px;
+    background:#151414;
+    padding: 50px;
+}
+.footer-title{
+    font-weight: 700;
+font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-decription{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 16px;
+padding: 10px;
 }
