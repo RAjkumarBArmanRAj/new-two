@@ -6,7 +6,7 @@
 header {
     background-image: url(/images/banner/banner1.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 
 }
@@ -39,6 +39,7 @@ header {
     border: 0;
     background: #F15B22;
     border-radius: 5px;
+    margin-bottom: 150px;
 }
 
 /* main */
@@ -49,7 +50,7 @@ main {
 /* about */
 .about{
     display: flex;
-    margin: 50px 200px;
+    margin-top: 130px;
     gap: 50px;
 
 }
@@ -108,18 +109,18 @@ margin-bottom: 10px;
     font-weight: 400px;
 }
 
-/* mind-set */
-.mind-set {
+/* call now */
+.call{
     margin: 0 200px;
 }
-.mind{
+.call-now{
     background: linear-gradient(to right, rgba(255, 134, 20, 0.918),rgb(247, 0, 0, 0)), url(/images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     margin: 60px;
 }
-.mindset-title {
+.call-now-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
@@ -139,7 +140,10 @@ margin-bottom: 10px;
     gap: 100px;
     background: #151414;
     padding: 130px 200px;
-    margin: 0 200px;
+    margin: 0 ;
+}
+a{
+    text-decoration: none;
 }
 
 .footer-title{
