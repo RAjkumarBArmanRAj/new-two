@@ -47,33 +47,39 @@ main {
     margin: 0;
     max-width: 1100;
 }
+
 /* about */
-.about{
+.my-failures {
     display: flex;
-    margin-top: 130px;
-    gap: 50px;
-
+    gap: 100px;
+    margin: 150px 200px;
 }
+
 .dot {
-  height: 500px;
-  width: 500px;
-  background-color: rgb(223, 157, 37);
-  border-radius: 50%;
-  display: inline-block;
+    height: 500px;
+    width: 600px;
+    background-color: rgb(223, 157, 37);
+    border-radius: 50%;
+    display: inline-block;
 }
-.about-title{
-    margin-top: 130px;
+
+.about-title {
+    margin-top: 100px;
     font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-bottom: 10px;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 10px;
 
 }
-.about-decription{
+
+.about-decription {
     font-weight: 400;
-font-size: 16px;
-color: #444343;
-margin-bottom: 10px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+.check{
+    color: #0000ff;
 }
 
 /* .my-plan */
@@ -110,16 +116,18 @@ margin-bottom: 10px;
 }
 
 /* call now */
-.call{
+.call {
     margin: 0 200px;
 }
-.call-now{
-    background: linear-gradient(to right, rgba(255, 134, 20, 0.918),rgb(247, 0, 0, 0)), url(/images/watch.png);
+
+.call-now {
+    background: linear-gradient(to right, rgba(255, 134, 20, 0.918), rgb(247, 0, 0, 0)), url(/images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     margin: 60px;
 }
+
 .call-now-title {
     color: #FFFFFF;
     font-weight: 700;
@@ -134,31 +142,34 @@ margin-bottom: 10px;
     border-radius: 5px;
     margin: 25px;
 }
+
 /* footer */
-.footer{
+.footer {
     display: flex;
     gap: 100px;
     background: #151414;
     padding: 130px 200px;
-    margin: 0 ;
+    margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-.footer-title{
+.footer-title {
     text-align: left;
     font-weight: 700;
     font-size: 25px;
     color: #F8F8F8;
     margin-bottom: 10px;
 }
-.footer-description{
+
+.footer-description {
     color: #FFFFFF;
     margin-bottom: 10px;
 }
 
-input{
+input {
     color: #FFFFFF;
     background: #151414;
     padding: 20px;
