@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: url('/images/banner1.png');
+    background-image: url("/images/banner/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,8 +155,8 @@ main {
     margin: 0 200px;
 }
 
-.call-now {
-    background: linear-gradient(to right, rgba(255, 134, 20, 0.918), rgb(247, 0, 0, 0)), url("/images/watch.png");
+.call-n {
+    background: linear-gradient(to right, rgba(255, 134, 20, 0.918), rgb(247, 0, 0, 0));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
