@@ -46,6 +46,34 @@ main {
     margin: 0;
     max-width: 1100;
 }
+/* about */
+.about{
+    display: flex;
+    margin: 50px 200px;
+    gap: 50px;
+
+}
+.dot {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(223, 157, 37);
+  border-radius: 50%;
+  display: inline-block;
+}
+.about-title{
+    margin-top: 130px;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-bottom: 10px;
+
+}
+.about-decription{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-bottom: 10px;
+}
 
 /* .my-plan */
 .my-plan {
@@ -106,26 +134,13 @@ main {
     margin: 25px;
 }
 /* footer */
-/* .footer{
+.footer{
     display: flex;
-    
-}
-.footer-set{
+    gap: 100px;
+    background: #151414;
+    padding: 130px 200px;
     margin: 0 200px;
-    background:#151414;
-    padding: 50px;
 }
-.footer-title{
-    font-weight: 700;
-font-size: 45px;
-    color: #F8F8F8;
-}
-.footer-decription{
-    color: #FFFFFF;
-    font-weight: 400;
-font-size: 16px;
-padding: 10px;
-} */
 
 .footer-title{
     text-align: left;
@@ -139,15 +154,6 @@ padding: 10px;
     margin-bottom: 10px;
 }
 
-
-/* contact styles */
-.footer{
-    display: flex;
-    gap: 100px;
-    background: #151414;
-    padding: 130px 200px;
-    margin: 0 200px;
-}
 input{
     color: #FFFFFF;
     background: #151414;
