@@ -37,7 +37,7 @@ header {
     padding: 12px 16px;
     color: #ffff;
     border: 0;
-    background: #F15B22;
+    background: #17f33c;
     border-radius: 5px;
     margin-bottom: 150px;
 }
@@ -53,18 +53,19 @@ main {
     display: flex;
     gap: 100px;
     margin: 150px 200px;
+    justify-content: center;
 }
 
 .dot {
     height: 500px;
-    width: 600px;
+    width: 500px;
     background-color: rgb(223, 157, 37);
     border-radius: 50%;
     display: inline-block;
 }
 
 .about-title {
-    margin-top: 100px;
+    margin-top: 130px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -81,6 +82,34 @@ main {
 .check{
     color: #0000ff;
 }
+/* mywork */
+.my-work{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 200px;
+}
+.text-primary{
+    height: 30px;
+    width: 70px;
+    border: 2px solid #17f33c;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.work-title{
+    font-weight: 700;
+    font-size: 54px;
+}
+.color{
+    color: #17f33c;
+}
+.work-decription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 25px 0;
+}
 
 /* .my-plan */
 .my-plan {
@@ -89,7 +118,7 @@ main {
 }
 
 .section-title {
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 700;
 }
 
