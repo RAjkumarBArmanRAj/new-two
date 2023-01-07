@@ -156,7 +156,7 @@ main {
 }
 
 .call-now {
-    background: linear-gradient(to right, rgba(255, 134, 20, 0.918), rgb(247, 0, 0, 0)), url("/images/watch.png");
+    background: linear-gradient(to right, rgba(255, 134, 20, 0.918), rgb(247, 0, 0, 0)), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
